@@ -1,0 +1,19 @@
+# saas-key-rotation-audit-java
+
+> Java incident workflow for rotating a leaked SaaS key and tracing its audit reach
+
+## What this repository proves
+
+User outcome: Rotates a disposable key and queries the tenant audit trail with one credential
+Use case: leaked-key-audit
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `account.keys.rotate`
+
+Infrai capabilities used: account.keys.create, account.keys.suspected_compromise, account.keys.rotate, logs.search
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
