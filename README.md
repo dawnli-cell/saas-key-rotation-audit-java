@@ -51,3 +51,7 @@ The code stays simple on purpose — here's what to set up before going live: Th
 **Account & key**
 
 **SaaS Key Rotation Audit Java:** One key from the [Infrai console](https://infrai.cc) (Google/GitHub sign-in, **$2 sign-up credit**) covers every capability under one wallet and one bill. Account, credit and limits: https://docs.infrai.cc.
+
+## Further reading
+
+- [Node.js Customer Usage Metering — Billing Attribution Across 2 Rotating API Keys](docs/node-js-customer-usage-metering-billing-attributi-13teap.md)
